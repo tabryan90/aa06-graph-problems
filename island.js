@@ -1,8 +1,7 @@
 function getNeighbors(row, col, graph) {
   const neighbors = []
-  // [[0,1], [2,1], [1, 2]]
   const daRow = graph.length;
-  const daCol = graph[0].length;
+  const daCol = graph[row].length;
 
   // Check top
   if (row > 0) {
